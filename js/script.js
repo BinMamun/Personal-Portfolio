@@ -32,3 +32,7 @@ document.querySelector(".js-arrow-to-projects")
     .addEventListener("click", () => {
         location.href = "./#projects";
     });
+document.querySelector(".js-arrow-to-contact")
+    .addEventListener("click", () => {
+        location.href = "./#contact";
+    });
