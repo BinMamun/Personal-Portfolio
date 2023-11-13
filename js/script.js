@@ -9,7 +9,7 @@ function toggleMenu() {
 // download the cv button
 document.querySelector(".js-download-cv")
     .addEventListener("click", () => {
-        window.open('./assets/resume-example.pdf');
+        window.open('./assets/Abdullah Bin Mamun.pdf');
     });
 
 //leads the user to the contact part of the website
@@ -23,7 +23,12 @@ document.querySelector(".js-github-profile")
         location.href = "https://github.com/BinMamun";
     });
 
-document.querySelector(".js-arrow")
+document.querySelector(".js-arrow-to-experience")
     .addEventListener("click", () => {
         location.href = "./#experience";
+    });
+
+document.querySelector(".js-arrow-to-projects")
+    .addEventListener("click", () => {
+        location.href = "./#projects";
     });
