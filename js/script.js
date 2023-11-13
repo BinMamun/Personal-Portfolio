@@ -21,4 +21,9 @@ document.querySelector(".js-contact-info")
 document.querySelector(".js-github-profile")
     .addEventListener("click", () => {
         location.href = "https://github.com/BinMamun";
-    })
+    });
+
+document.querySelector(".js-arrow")
+    .addEventListener("click", () => {
+        location.href = "./#experience";
+    });
