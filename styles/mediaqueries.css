@@ -55,6 +55,11 @@
     .about-container {
         margin-top: 0;
     }
+
+    .profile-pic-rounded {
+        border-radius: 50%;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -108,8 +113,8 @@
     }
 
     .section__pic-container {
-        width: auto;
-        height: 46vw;
+        width: 27vh;
+        height: 40vw;
         justify-content: center;
     }
 
@@ -123,5 +128,10 @@
 
     .text-container {
         text-align: justify;
+    }
+
+    .profile-pic-rounded {
+        border-radius: 50%;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
     }
 }
