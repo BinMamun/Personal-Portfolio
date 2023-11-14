@@ -23,7 +23,7 @@ document.querySelector(".js-contact-info")
 //redirects the user to my github account
 document.querySelector(".js-github-profile")
     .addEventListener("click", () => {
-        location.href = "https://github.com/BinMamun";
+        window.open("https://github.com/BinMamun", '_blank');
     });
 
 //leads the user to the experience part of the website
@@ -41,4 +41,14 @@ document.querySelector(".js-arrow-to-projects")
 document.querySelector(".js-arrow-to-contact")
     .addEventListener("click", () => {
         location.href = "./#contact";
+    });
+
+document.querySelector(".js-project-amazon-link")
+    .addEventListener("click", () => {
+        window.open("https://github.com/BinMamun/javascript-amazon-project.git", "_blank");
+    });
+
+document.querySelector(".js-project-youtube-link")
+    .addEventListener("click", () => {
+        window.open("https://github.com/BinMamun/html-css-practice.git", "_blank");
     });
