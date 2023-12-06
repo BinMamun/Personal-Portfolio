@@ -21,10 +21,10 @@ document.querySelector(".js-contact-info")
 
 
 //redirects the user to my github account
-document.querySelector(".js-github-profile")
-    .addEventListener("click", () => {
-        window.open("https://github.com/BinMamun", '_blank');
-    });
+const githubProfileLogo = document.querySelector(".js-github-profile");
+githubProfileLogo.addEventListener("click", () => {
+    window.open("https://github.com/BinMamun", '_blank');
+});
 
 //leads the user to the experience part of the website
 document.querySelector(".js-arrow-to-experience")
@@ -62,7 +62,9 @@ darkIcon.addEventListener("click", () => {
 
     if (body.classList.contains("dark-theme")) {
         darkIcon.src = "./assets/sun.png";
+        githubProfileLogo.src = "./assets/github-white.png";
     } else {
         darkIcon.src = "./assets/moon.png";
+        githubProfileLogo.src = "./assets/github.png";
     }
 })
