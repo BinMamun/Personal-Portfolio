@@ -52,6 +52,10 @@ nav {
     height: 17vh;
 }
 
+.nav-menu {
+    margin-left: 550px;
+}
+
 .nav-links {
     gap: 2rem;
     list-style: none;
@@ -71,7 +75,9 @@ a:hover {
     text-decoration-color: rgb(181, 181, 181);
 }
 
+
 .logo {
+    margin-left: 100px;
     font-size: 2rem;
 }
 
@@ -157,6 +163,12 @@ a:hover {
 
 .hamburger-icon span:first-child {
     transform: none;
+}
+
+
+/*Dark Icon*/
+.dark-icon {
+    height: 30px;
 }
 
 /* Sections */
