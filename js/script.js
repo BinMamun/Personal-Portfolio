@@ -52,3 +52,17 @@ document.querySelector(".js-project-youtube-link")
     .addEventListener("click", () => {
         window.open("https://github.com/BinMamun/html-css-practice.git", "_blank");
     });
+
+const darkIcon = document.querySelector(".js-dark-icon");
+
+const body = document.querySelector("body");
+
+darkIcon.addEventListener("click", () => {
+    body.classList.toggle("dark-theme");
+
+    if (body.classList.contains("dark-theme")) {
+        darkIcon.src = "./assets/sun.png";
+    } else {
+        darkIcon.src = "./assets/moon.png";
+    }
+})
