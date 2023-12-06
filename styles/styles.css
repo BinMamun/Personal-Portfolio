@@ -55,10 +55,6 @@ nav {
     height: 17vh;
 }
 
-.nav-menu {
-    margin-left: 550px;
-}
-
 .nav-links {
     gap: 2rem;
     list-style: none;
@@ -80,7 +76,6 @@ a:hover {
 
 
 .logo {
-    margin-left: 100px;
     font-size: 2rem;
     color: var(--secondary-color)
 }
@@ -171,6 +166,14 @@ a:hover {
 
 
 /*Dark Icon*/
+.dark-icon-position {
+    position: fixed;
+    justify-content: end;
+    overflow: hidden;
+    top: 50px;
+    right: 50px;
+}
+
 .dark-icon {
     height: 30px;
     cursor: pointer;
